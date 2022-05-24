@@ -1,0 +1,354 @@
+
+
+.team-title {
+    color: #F5F5F5;    
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 81px;
+
+    position: absolute;
+    width: 30%;
+    height: 124px;
+    left: 15%;
+    top: 179px;
+}
+
+.team-description {
+    position: absolute;
+    width: 40%;
+    height: 102px;
+    left: 50%;
+    top: 179px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+}
+
+.team-list {
+    top: 33%;
+}
+
+.founder-title {
+    position: absolute;
+    width: 259px;
+    height: 37px;
+    left: 10%;
+    top: 7%;
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 35px; */
+    font-size: 3vw;
+    line-height: 46px;
+
+    color: #252525;
+}
+
+.founder-subtitle {
+    position: absolute;
+    width: 270px;
+    height: 39px;
+    left: 10%;
+    top: 16%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 24px; */
+    font-size: 2vw;
+
+    line-height: 27px;
+
+    color: #252525;
+}
+
+.founder-pfp {
+    position: absolute;
+    width: 80%;
+    height: auto%;
+    left: 10%;
+    top: 40%;
+}
+
+.founder-1 {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 0px;
+    top: 44%;
+
+    background: #B491F9;
+}
+
+.founder-2 {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 20%;
+    top: 44%;
+
+    background: #FEC359;
+}
+
+.founder-3 {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 40%;
+    top: 44%;
+
+    background: #D4CB6E;
+}
+
+.founder-4 {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 60%;
+    top: 44%;
+
+    background: #81ABFC;
+}
+
+.founder-5 {
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 80%;
+    top: 44%;
+
+    background: #FCF5C8;
+}
+
+.founder-1:hover {
+    width: 60%;
+}
+
+.founder-1:hover ~ .founder-2{
+    width: 10%;
+    height: 60%;
+    left: 60%;
+}
+
+.founder-1:hover ~ .founder-3{
+    width: 10%;
+    height: 60%;
+    left: 70%;
+}
+
+.founder-1:hover ~ .founder-4{
+    width: 10%;
+    height: 60%;
+    left: 80%;
+}
+
+.founder-1:hover ~ .founder-5{
+    width: 10%;
+    height: 60%;
+    left: 90%;
+}
+
+/* Founder 2 Hover */
+
+.founder-2:hover {
+    width: 60%;
+}
+
+.founder-2:hover ~ .founder-1{
+    width: 10%;
+    height: 60%;
+    left: 0%;
+}
+
+.founder-2:hover ~ .founder-3{
+    width: 10%;
+    height: 60%;
+    left: 70%;
+}
+
+.founder-2:hover ~ .founder-4{
+    width: 10%;
+    height: 60%;
+    left: 80%;
+}
+
+.founder-2:hover ~ .founder-5{
+    width: 10%;
+    height: 60%;
+    left: 90%;
+}
+
+/* Founder 3 Hover */
+
+.founder-3:hover {
+    width: 60%;
+}
+
+.founder-3:hover ~ .founder-1{
+    width: 10%;
+    height: 60%;
+    left: 0%;
+}
+
+.founder-3:hover ~ .founder-2{
+    width: 10%;
+    height: 60%;
+    left: 10%;
+}
+
+.founder-3:hover ~ .founder-4{
+    width: 10%;
+    height: 60%;
+    left: 80%;
+}
+
+.founder-3:hover ~ .founder-5{
+    width: 10%;
+    height: 60%;
+    left: 90%;
+}
+
+/* Founder 4 Hover */
+
+.founder-4:hover {
+    width: 60%;
+}
+
+.founder-4:hover ~ .founder-1{
+    width: 10%;
+    height: 60%;
+    left: 0%;
+}
+
+.founder-4:hover ~ .founder-2{
+    width: 10%;
+    height: 60%;
+    left: 10%;
+}
+
+.founder-4:hover ~ .founder-3{
+    width: 10%;
+    height: 60%;
+    left: 80%;
+}
+
+.founder-4:hover ~ .founder-5{
+    width: 10%;
+    height: 60%;
+    left: 90%;
+}
+
+.accordion-struct {
+    padding-top: 30%;
+}
+
+article.accordion
+{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #666;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+article.accordion section
+{
+  position: relative;
+  display: block;
+  float: left;
+  width: 4em;
+  height: 24em;
+  margin: 0.5em 0 0.5em 0.5em;
+  color: #333;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 3px;
+}
+article.accordion section h2
+{
+  position: absolute;
+  font-size: 1em;
+  font-weight: bold;
+  width: 22em;
+  height: 3em;
+  top: 22em;
+  left: 0;
+  text-indent: 0em;
+  padding: 0;
+  margin: 0;
+  color: #ddd;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+article.accordion section h2 a
+{
+  display: block;
+  width: 100%;
+  line-height: 4em;
+  text-decoration: none;
+  color: inherit;
+  outline: 0 none;
+}
+
+.pfp {
+    position: relative;
+    left: 55%;
+    top: 5%;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.twitter_social_logo {
+    position: relative;
+    top: 5%;
+    left: 3%;
+    margin-top: 50px;
+    width: 10%;
+    height: auto;
+}
+
+article.accordion section:target
+{
+  width: 30em;
+  padding: 0 1em;
+  color: #333;
+  background-color: #fff;
+}
+article.accordion section:target h2
+{
+  position: static;
+  font-size: 1.3em;
+  text-indent: 0;
+  color: #333;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+article.accordion section,
+article.accordion section h2
+{
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
