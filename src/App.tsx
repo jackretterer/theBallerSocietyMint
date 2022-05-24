@@ -25,6 +25,7 @@ import Home from './Home';
 
 import {
   BrowserRouter as Router,
+  useRoutes,
 } from "react-router-dom";
 
 const theme = createTheme({
@@ -55,8 +56,20 @@ const connection = new anchor.web3.Connection(
 
 const App = () => {
     let routes = useRoutes([
-      { path: "/", element: <Home/> },
-      { path: "/home", element: <Home/> },
+      { path: "/", element: <Home
+      candyMachineId={candyMachineId}
+      connection={connection}
+      txTimeout={DEFAULT_TIMEOUT}
+      rpcHost={rpcHost}
+      network={network}
+    />},
+      { path: "/home", element: <Home
+      candyMachineId={candyMachineId}
+      connection={connection}
+      txTimeout={DEFAULT_TIMEOUT}
+      rpcHost={rpcHost}
+      network={network}
+    />},
       { path: "/team", element: <Team/> },
       // { path: "/roadmap", element: <Roadmap/> },
       // { path: "/gallery", element: <Gallery/>},

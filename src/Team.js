@@ -86,9 +86,10 @@ export const Team = () => {
                 </section>
                 <section id="acc5">
                     <h2><a href="#acc5">Charles - Lead Artist & Illustrator</a></h2>
-                    <p>Charles is from Caxias do Sul, BRAZIL. He graduated with a degree in design & 
-                        has over 10 years of digital illustration. He has been an artist for several other successful
-                        NFT projects but now wants to focus on something more.</p>
+                    <p>Charles has over 13 years of experience in design and illustration. He's worked for 
+                        several advertising agencies, and has publications in several newspapers. He has 8 children's 
+                        books published. He currently owns Segat Studio which was responsible for making some pretty successful 
+                        NFT collections.</p>
                     <a href="https://twitter.com/charlessegat"><img src={twitter} className="twitter_social_logo"></img></a>
                     <img src={Charles} className="pfp"></img>
                 </section>
