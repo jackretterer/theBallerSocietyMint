@@ -32,7 +32,8 @@ import { GatewayProvider } from '@civic/solana-gateway-react';
 import { sendTransaction } from './connection';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 import {Header} from './Header.js';
-import {Team} from './Team.js'
+import {Roadmap} from './Roadmap.js';
+import {Team} from './Team.js';
 
 
 const ConnectButton = styled(WalletDialogButton)`
@@ -482,6 +483,7 @@ const Home = (props: HomeProps) => {
   return (
     <div>
       <Header/>
+      {/* <Roadmap/> */}
       <Team/>
 
       {/* <Container>

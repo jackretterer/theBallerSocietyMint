@@ -1,0 +1,230 @@
+.roadmap-title {
+    color: #F5F5F5;    
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 81px;
+
+    position: absolute;
+    width: 40%;
+    height: 124px;
+    left: 15%;
+    top: 19%;
+}
+
+.roadmap-description {
+    position: absolute;
+    width: 40%;
+    height: 102px;
+    left: 50%;
+    top: 19%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+}
+
+.roadmap-phases {
+    background: #EF7B32;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 40%;
+    z-index: -100;
+    overflow: hidden;
+    position: fixed;
+}
+
+.roadmap-phase-premint {
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    left: 10%;
+    top: 40%;
+    background: #F5F5F5;
+}
+
+.roadmap-phase-title {
+    /* position: absolute; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    /* top: 20%; */
+
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 81px;
+    text-align: center;
+
+    color: #EF7B32;
+}
+
+.roadmap-phase-subtitle {
+    /* position: absolute; */
+    margin-left: 10%;
+    margin-top: 1%;
+    /* top: 20%; */
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 25px; */
+    font-size: 2vw;
+    line-height: 24px;
+    color: #252525;
+}
+
+.roadmap-phase-desc {
+    /* position: absolute; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    /* top: 20%; */
+    font-family: 'Karantina';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 15px; */
+    font-size: 1.25vw;
+
+    line-height: 2.5vw;
+    color: #252525;
+}
+
+.roadmap-phase-one {
+    position: absolute;
+    width: 36%;
+    height: 60%;
+    left: 10%;
+    top: 75%;
+    background: #F5F5F5;
+}
+
+.roadmap-phase-two {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 50%;
+    top: 75%;
+    background: #F5F5F5;
+}
+
+.roadmap-phase-three {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    left: 50%;
+    top: 120%;
+
+    background: #F5F5F5;
+}
+
+.roadmap-phase-four {
+    position: absolute;
+    width: 36%;
+    height: 40%;
+    left: 10%;
+    top: 140%;
+
+    background: #F5F5F5;
+}
+
+.roadmap-phase-five {
+    position: absolute;
+    width: 80%;
+    height: 15%;
+    left: 10%;
+    top: 185%;
+
+    background: #F5F5F5;
+}
+
+.roadmap-phase-padding {
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top: 205%;
+    background: #252525;
+}
+
+.roadmap-list {
+    top: 33%;
+}
+
+@media screen and (max-width:1000px) {
+
+    .roadmap-title {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 10%;
+        top: 15%;
+    }
+
+    .roadmap-description {
+        text-align: center;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        top: 250px;
+        left: 0;
+        color: #F5F5F5;
+    }
+
+    .roadmap-phase-subtitle {
+        font-size: 2vw;
+    }
+    
+    .roadmap-phase-desc {
+        font-size: 1.75vw;
+    }
+    .roadmap-phase-premint {
+        text-align: left;
+        width: 80%;
+        height: 30%;
+        top: 45%;
+    }
+    .roadmap-phase-one {
+        width: 80%;
+        height: 40%;
+        top: 80%;
+    }
+    .roadmap-phase-two {
+        width: 80%;
+        height: 30%;
+        top: 125%;
+        left: 10%;
+    }
+    .roadmap-phase-three {
+        width: 80%;
+        height: 35%;
+        top: 160%;
+        left: 10%;
+    }
+    .roadmap-phase-four {
+        width: 80%;
+        height: 30%;
+        top: 200%;
+    }
+    .roadmap-phase-five {
+        width: 80%;
+        height: 15%;
+        top: 235%;
+    }
+
+    .roadmap-phase-padding {
+        width: 80%;
+        height: 10%;
+        left: 10%;
+        top: 250%;
+        background: #252525;
+    }
+}
